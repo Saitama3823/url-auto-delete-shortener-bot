@@ -383,7 +383,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'atglinks.com/api'
+    url = f'http://mdiskpro.xyz/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
